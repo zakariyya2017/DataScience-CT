@@ -1,25 +1,23 @@
-**Examining Racial Discrimination in the US Job Market**
+**Hospital Readmissions Data Analysis and Recommendations for Reduction**
 
 **Background**
 
-Racial discrimination continues to be pervasive in cultures throughout the world. Researchers examined the level of racial discrimination in the United States labor market by randomly assigning identical résumés to black-sounding or white-sounding names and observing the impact on requests for interviews from employers.
+In October 2012, the US government's Center for Medicare and Medicaid Services (CMS) began reducing Medicare payments for Inpatient Prospective Payment System hospitals with excess readmissions. Excess readmissions are measured by a ratio, by dividing a hospital’s number of “predicted” 30-day readmissions for heart attack, heart failure, and pneumonia by the number that would be “expected,” based on an average hospital with similar patients. A ratio greater than 1 indicates excess readmissions.
 
-**Data**
+**Exercise Directions**
 
-In the dataset provided, each row represents a resume. The 'race' column has two values, 'b' and 'w', indicating black-sounding and white-sounding. The column 'call' has two values, 1 and 0, indicating whether the resume received a call from employers or not. Note that the 'b' and 'w' values in race are assigned randomly to the resumes when presented to the employer.
+In this exercise, you will:
 
-**Exercises**
+.critique a preliminary analysis of readmissions data and recommendations (provided below) for reducing the readmissions rate
 
-You will perform a statistical analysis to establish whether race has a significant impact on the rate of callbacks for resumes.
+.construct a statistically sound analysis and make recommendations of your own
 
-Answer the following questions in this notebook below and submit to your Github account.
+More instructions provided below. Include your work in this notebook and submit to your Github account.
 
-What test is appropriate for this problem? Does CLT apply?
+**Resources**
 
-What are the null and alternate hypotheses?
+.Data source: https://data.medicare.gov/Hospital-Compare/Hospital-Readmission-Reduction/9n3s-kdb3
 
-Compute margin of error, confidence interval, and p-value.
+.More information: http://www.cms.gov/Medicare/medicare-fee-for-service-payment/acuteinpatientPPS/readmissions-reduction-program.html
 
-Write a story describing the statistical significance in the context or the original problem.
-
-Does your analysis mean that race/name is the most important factor in callback success? Why or why not? If not, how would you amend your analysis?
+.Markdown syntax: http://nestacms.com/docs/creating-content/markdown-cheat-sheet
